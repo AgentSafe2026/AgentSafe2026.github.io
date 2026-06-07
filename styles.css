@@ -387,13 +387,11 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 
 .speakers-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   max-width: 720px;
   margin: 0 auto;
 }
-
-.speaker-card { grid-column: span 2; }
 
 /* Shared base for speaker and organizer cards */
 .speaker-card,
