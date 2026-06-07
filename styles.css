@@ -395,10 +395,6 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 
 .speaker-card { grid-column: span 2; }
 
-/* Center the orphan row of 2 (5 speakers total) */
-.speaker-card:nth-child(4) { grid-column: 2 / span 2; }
-.speaker-card:nth-child(5) { grid-column: 4 / span 2; }
-
 /* Shared base for speaker and organizer cards */
 .speaker-card,
 .organizer-card {
